@@ -1,0 +1,114 @@
+body {
+	font-family: sans-serif;
+}
+
+h1,h2 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Removing Blue border from input forms*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#clear {
+	clear: both;
+}
+
+
+#container {
+	width: 800px;
+	height: 400px;
+	margin: 120px auto;
+	-webkit-box-shadow: 0px 0px 57px -28px rgba(228,38,28,1);
+-moz-box-shadow: 0px 0px 57px -28px rgba(228,38,28,1);
+box-shadow: 0px 0px 57px -28px rgba(228,38,28,1);
+}
+
+/* Left Section Styles*/
+
+#left-sec {
+	float: left;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+
+
+#left-sec img {
+	width: 100px;
+	margin: 10px 0;
+}
+
+#left-sec form {
+	margin-top: 40px;
+}
+
+#left-sec form input {
+	padding: 7px 5px;
+	width: 190px;
+	border: none;
+	border-bottom: 2px solid #ddd;
+}
+
+#left-sec form svg {
+	color: gray;
+}
+
+#left-sec form button {
+	margin-top: 25px ;
+	border: none;
+	background: #E4261C;
+	padding: 7px 60px;
+	border-radius: 7px;
+	color: #fff;
+}
+
+#left-sec form button:hover {
+	background: #C2453F;
+	cursor: pointer;
+	}
+
+#left-sec form button svg {
+	padding-left: 20px;
+	color: #fff;
+}
+
+#left-sec .create {
+	margin-top: 15px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#left-sec a {
+	color: #3597d3;
+}
+
+#left-sec a:hover {
+	color: #3597d3;
+}
+
+
+
+
+/* Right Section Styles*/
+
+#right-sec {
+	float: right;
+	background: url(../images/office.jpg);
+	background-size: cover;
+	width: 59%;
+	height: 100%;
+	}
+
+#right-sec .evlin-title {
+	margin-top: 320px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
